@@ -7,7 +7,7 @@
  * Return: Nothing!
  */
 
-void Print_number(int n)
+void print_number(int n)
 
 {
 	unsigned int k = n;
@@ -20,6 +20,6 @@ void Print_number(int n)
 	}
 	k /= 10;
 	if (k != 0)
-	Print_number(k);
+	print_number(k);
 	_putchar((unsigned int) n % 10 + '0');
 }
