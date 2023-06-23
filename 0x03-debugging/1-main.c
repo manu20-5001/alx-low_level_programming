@@ -13,7 +13,7 @@ int main(void)
 
 	i = 0;
 
-	printf("Ifinite loop avoided! \\o/\n")
+	printf("Ifinite loop avoided! \\o/\n");
 
 	return (0);
 }
